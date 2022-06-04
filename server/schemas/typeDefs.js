@@ -9,6 +9,11 @@ const typeDefs = gql`
     orders: [Order]
   }
 
+  type Auth {
+    token: ID
+    user: User
+  }
+
   type Service {
     _id: ID
     name: String
@@ -30,6 +35,17 @@ const typeDefs = gql`
     services: [Service]
     orders(_id: ID): Order
     order(_id: ID!): Order
+  }
+
+  type Mutation {
+    addUser(
+      firstName: String!
+      lastName: String!
+      email: String!
+      password: String!
+    ): Auth
+    login(email: String!, password: String!): Auth
+    addOrder(service: [ID]!): Order
   }
 `;
 
