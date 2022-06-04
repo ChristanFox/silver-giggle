@@ -4,13 +4,8 @@ const { User, Service, Order } = require("../models");
 
 const resolvers = {
   Query: {
-    helloWorld: () => {
-      return "Hello world!";
-    },
-    user: async (parent, { username }) => {
-      return User.findOne({ username })
-        .select("-__v -password")
-        .populate("orders");
+    user: async (parent, { _id }) => {
+      return User.findOne({ _id }).select("-__v -password").populate("orders");
     },
     users: async () => {
       return User.find().select("-__v -password");
@@ -18,7 +13,7 @@ const resolvers = {
     service: async (parent, { _id }) => {
       return Service.findOne({ _id });
     },
-    services: async (parent, name) => {
+    services: async () => {
       return Service.find();
     },
     orders: async () => {

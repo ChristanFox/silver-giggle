@@ -2,18 +2,6 @@ const db = require("../config/connection");
 const { User, Service } = require("../models");
 
 db.once("open", async () => {
-  //   await Order.deleteMany();
-
-  //   const orders = await Order.insertMany([
-  //     { purchaseDate: "0111111" },
-  //     { purchaseDate: "Household Supplies" },
-  //     { purchaseDate: "Electronics" },
-  //     { purchaseDate: "Books" },
-  //     { purchaseDate: "Toys" },
-  //   ]);
-
-  //   console.log("orders seeded");
-
   await Service.deleteMany({});
 
   const services = await Service.insertMany([
@@ -126,7 +114,7 @@ db.once("open", async () => {
     password: "password12345",
     orders: [
       {
-        services: [services[0]._id, services[0]._id, services[1]._id],
+        service: [services[0]._id, services[0]._id, services[1]._id],
       },
     ],
   });
