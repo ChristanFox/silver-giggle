@@ -5,7 +5,9 @@ const { User, Service, Order } = require("../models");
 const resolvers = {
   Query: {
     user: async (parent, { _id }) => {
-      return User.findOne({ _id }).select("-__v -password").populate("orders");
+      return User.findOne({ _id })
+        .select("-__v -password")
+        .populate("orders.service");
     },
     users: async () => {
       return User.find().select("-__v -password");
