@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
   return (
     <header className="bg-secondary mb-4 py-2 flex-row align-center">
       <div className="container flex-row justify-space-between-lg justify-center align-center">
-        <h1>Nails by Nija</h1>
+        <h1>Oui'd Cavern</h1>
       </div>
     </header>
   );
