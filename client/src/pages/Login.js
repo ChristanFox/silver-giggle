@@ -65,7 +65,7 @@ const Login = (props) => {
                 onChange={handleChange}
               />
               <button className="btn d-block w-100" type="submit">
-                Submit
+                Login
               </button>
             </form>
 
