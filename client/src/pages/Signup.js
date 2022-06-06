@@ -41,47 +41,60 @@ const Signup = () => {
   return (
     <main className="flex-row justify-center mb-4">
       <div className="col-12 col-md-6">
-        <div className="card">
-          <h4 className="card-header">Sign Up</h4>
+        <div className="login-box">
+          <h2 className="">Sign Up</h2>
           <div className="card-body">
             <form onSubmit={handleFormSubmit}>
-              <input
-                className="form-input"
-                placeholder="Your First Name"
-                name="firstName"
-                type="firstName"
-                id="firstName"
-                value={formState.firstName}
-                onChange={handleChange}
-              />
-              <input
-                className="form-input"
-                placeholder="Your Last Name"
-                name="lastName"
-                type="lastName"
-                id="lastName"
-                value={formState.lastName}
-                onChange={handleChange}
-              />
-              <input
-                className="form-input"
-                placeholder="Your email"
-                name="email"
-                type="email"
-                id="email"
-                value={formState.email}
-                onChange={handleChange}
-              />
-              <input
-                className="form-input"
-                placeholder="******"
-                name="password"
-                type="password"
-                id="password"
-                value={formState.password}
-                onChange={handleChange}
-              />
+              <div className="user-box">
+                <input
+                  className="form-input"
+                  placeholder="Your First Name"
+                  name="firstName"
+                  type="firstName"
+                  id="firstName"
+                  value={formState.firstName}
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="user-box">
+                <input
+                  className="form-input"
+                  placeholder="Your Last Name"
+                  name="lastName"
+                  type="lastName"
+                  id="lastName"
+                  value={formState.lastName}
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="user-box">
+                <input
+                  className="form-input"
+                  placeholder="Your email"
+                  name="email"
+                  type="email"
+                  id="email"
+                  value={formState.email}
+                  onChange={handleChange}
+                />
+              </div>
+
+              <div className="user-box">
+                <input
+                  className="form-input"
+                  placeholder="******"
+                  name="password"
+                  type="password"
+                  id="password"
+                  value={formState.password}
+                  onChange={handleChange}
+                />
+              </div>
               <button className="btn d-block w-100" type="submit">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
                 Sign Up
               </button>
             </form>
