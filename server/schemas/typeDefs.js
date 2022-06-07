@@ -45,7 +45,13 @@ const typeDefs = gql`
       password: String!
     ): Auth
     login(email: String!, password: String!): Auth
-    addOrder(services: [ID]!): Order
+    addOrder(service: [ID]!): Order
+    updateUser(
+      firstName: String
+      lastName: String
+      email: String
+      password: String
+    ): User
   }
 `;
 
