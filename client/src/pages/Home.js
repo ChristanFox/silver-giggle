@@ -21,7 +21,7 @@ const Home = () => {
                               <p></p>
                            </div>
                            <div className="testimonial-name">
-                              EMILIANO AQUILANI
+                              
                            </div>
                         </div>
                         <div className="item">
@@ -33,7 +33,9 @@ const Home = () => {
                               />
                               <p>kj</p>
                            </div>
-                           <div className="testimonial-name">ANNA ITURBE</div>
+                           <div className="testimonial-name">
+                             <p>
+                             The one and only place I shop for my products</div>
                         </div>
                         <div className="item">
                            <div className="shadow-effect">
@@ -44,7 +46,7 @@ const Home = () => {
                               />
                               <p></p>
                            </div>
-                           <div className="testimonial-name">LARA ATKINSON</div>
+                           <div className="testimonial-name">These products cured my anxiety!</div>
                         </div>
                      </div>
                   </div>
