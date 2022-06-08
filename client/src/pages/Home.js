@@ -17,7 +17,7 @@ const Home = () => {
                         </p>
                         <br></br>
                         <p>
-                           Ooi'd essential oil's have always been around you
+                           Oui'd essential oil's have always been around you
                            just didnt have us to get it to you!
                         </p>
                      </div>
