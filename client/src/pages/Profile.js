@@ -59,25 +59,6 @@ const Profile = () => {
                            </p>
                         </li>
                         <br></br>
-                        <li className="list-group-tiem">
-                           Hot Stone Massage
-                           <p>
-                              <string>Date:</string>7/1/2022
-                           </p>
-                           <p>
-                              <string>Time:</string>03:30
-                           </p>
-                        </li>
-                        <br></br>
-                        <li className="list-group-tiem">
-                           60 Min Deep Tissue
-                           <p>
-                              <string>Date:</string>7/1/2022
-                           </p>
-                           <p>
-                              <string>Time:</string>03:30
-                           </p>
-                        </li>
                      </div>
                   </ul>
                </div>
