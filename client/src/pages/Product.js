@@ -2,13 +2,12 @@ import React from "react";
 const Product = () => {
    return (
       <div className="container text ">
-         <div className="jumbotron text-center">
-            <h1>CONTACT US &nbsp;</h1>
+         <div className="jumbotron-contact text-center">
             <h3>
                Fill the form to let us know what service you would like to
                inquire about!
             </h3>
-            <br></br>
+
             <div className=" container">
                <br></br>
                <div className="container">

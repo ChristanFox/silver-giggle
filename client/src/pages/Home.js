@@ -28,7 +28,7 @@ const Home = () => {
 
          <div class="hero-section">
             <div class="card-home-grid">
-               <div class="card-home">
+               <a class="card-home" href="/services">
                   <div class="card-home__background">
                      <img
                         src="https://assets.codepen.io/7125791/testimonal-img-1_2.jpg"
@@ -39,8 +39,8 @@ const Home = () => {
                      <p class="card-home__category">Ooui'd</p>
                      <h3 class="card-home__heading">Amazing Products! </h3>
                   </div>
-               </div>
-               <div class="card-home">
+               </a>
+               <a class="card-home" href="/services">
                   <div class="card-home__background">
                      <img
                         src="https://assets.codepen.io/7125791/testimonal-img-4_1.jpg"
@@ -51,8 +51,8 @@ const Home = () => {
                      <p class="card-home__category">Ooui'd</p>
                      <h3 class="card-home__heading">Best services 'Period'.</h3>
                   </div>
-               </div>
-               <div class="card-home">
+               </a>
+               <a class="card-home" href="/services">
                   <div class="card-home__background">
                      <img
                         src="https://assets.codepen.io/7125791/testimonal-img-8_1.jpg"
@@ -63,8 +63,8 @@ const Home = () => {
                      <p class="card-home__category">Ooui'd</p>
                      <h3 class="card-home__heading">Great Oui'd! </h3>
                   </div>
-               </div>
-               <div class="card-home">
+               </a>
+               <a class="card-home" href="/services">
                   <div class="card-home__background">
                      <img
                         src="https://assets.codepen.io/7125791/testimonial-img-6_1.jpg"
@@ -75,7 +75,7 @@ const Home = () => {
                      <p class="card-home__category">Ooui'd</p>
                      <h3 class="card-home__heading">Everyone's using it! </h3>
                   </div>
-               </div>
+               </a>
             </div>
          </div>
       </main>
@@ -84,8 +84,7 @@ const Home = () => {
 
 export default Home;
 
-{
-   /* 
+/* 
 <div className="flex-row text-center ">
    <div className="item col-12 col-md-4">
       <div>
@@ -125,4 +124,3 @@ export default Home;
       </div>
    </div>
 </div>; */
-}
