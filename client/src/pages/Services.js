@@ -7,89 +7,89 @@ function Services() {
          <div id="columns" class="columns_4">
             <figure>
                <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
-               <figcaption>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-               </figcaption>
+               <ul>
+                  <li>Hot Stone Massage</li>
+                  <li>Amazing hot stone..</li>
+               </ul>
                <span class="price">$2.99</span>
                <a class="button" href="/product">
                   Book Now
                </a>
             </figure>
             <figure>
-               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
-               <figcaption>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-               </figcaption>
+               <img src="https://assets.codepen.io/7125791/volant-0q6QzzopVIs-unsplash.jpg" />
+               <ul>
+                  <li>Hot Stone Massage</li>
+                  <li>Amazing hot stone..</li>
+               </ul>
                <span class="price">$40.20</span>
-               <a class="button" href="#">
+               <a class="button" href="/">
                   Book Now
                </a>
             </figure>
             <figure>
-               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
-               <figcaption>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-               </figcaption>
-               <span class="price">$29.99</span>
-               <a class="button" href="#">
-                  Book Now
-               </a>
-            </figure>
-            <figure>
-               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
-               <figcaption>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-               </figcaption>
+               <img src="https://assets.codepen.io/7125791/visualsofdana-IfsRTQu6Djk-unsplash.jpg" />
+               <ul>
+                  <li>Hot Stone Massage</li>
+                  <li>Amazing hot stone..</li>
+               </ul>
                <span class="price">$49.99</span>
-               <a class="button" href="#">
+               <a class="button" href="/">
+                  Book Now
+               </a>
+            </figure>
+            <figure>
+               <img src="https://assets.codepen.io/7125791/thanos-pal-lPZZXH9sjZU-unsplash.jpg" />
+               <ul>
+                  <li>Hot Stone Massage</li>
+                  <li>Amazing hot stone..</li>
+               </ul>
+               <span class="price">$29.99</span>
+               <a class="button" href="/">
                   Book Now
                </a>
             </figure>
             <figure>
                <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
-               <figcaption>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-               </figcaption>
-               <span class="price">$24.99</span>
-               <a class="button" href="#">
+               <ul>
+                  <li>Hot Stone Massage</li>
+                  <li>Amazing hot stone..</li>
+               </ul>
+               <span class="price">$2.99</span>
+               <a class="button" href="/product">
                   Book Now
                </a>
             </figure>
             <figure>
-               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
-               <figcaption>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-               </figcaption>
-               <span class="price">$99.99</span>
-               <a class="button" href="#">
+               <img src="https://assets.codepen.io/7125791/volant-0q6QzzopVIs-unsplash.jpg" />
+               <ul>
+                  <li>Hot Stone Massage</li>
+                  <li>Amazing hot stone..</li>
+               </ul>
+               <span class="price">$40.20</span>
+               <a class="button" href="/">
                   Book Now
                </a>
             </figure>
             <figure>
-               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
-               <figcaption>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-               </figcaption>
-               <span class="price">$59.99</span>
-               <a class="button" href="#">
+               <img src="https://assets.codepen.io/7125791/visualsofdana-IfsRTQu6Djk-unsplash.jpg" />
+               <ul>
+                  <li>Hot Stone Massage</li>
+                  <li>Amazing hot stone..</li>
+               </ul>
+               <span class="price">$49.99</span>
+               <a class="button" href="/">
                   Book Now
                </a>
             </figure>
             <figure>
-               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
-               <figcaption>
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
-               </figcaption>
-               <span class="price">$24.99</span>
-               <a class="button" href="#">
+               <img src="https://assets.codepen.io/7125791/thanos-pal-lPZZXH9sjZU-unsplash.jpg" />
+               <ul>
+                  <li>Hot Stone Massage</li>
+                  <li>Amazing hot stone..</li>
+               </ul>
+               <span class="price">$29.99</span>
+               <a class="button" href="/">
                   Book Now
                </a>
             </figure>
