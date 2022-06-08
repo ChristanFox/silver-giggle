@@ -1,25 +1,101 @@
 import React from "react";
 
-const Services = () => {
+function Services() {
    return (
-      <div>
-         <div className="flex-row mb-3">
-            <h2 className="bg-dark text-secondary p-3 display-inline-block">
-               {/* Viewing <usernames>'s profile. */}
-            </h2>
-         </div>
-
-         <div className="flex-row justify-space-between mb-3">
-            <div className="col-12 mb-3 col-lg-8">
-               {/* PRINT THOUGHT LIST  */}
-            </div>
-
-            <div className="col-12 col-lg-3 mb-3">
-               {/* PRINT FRIEND LIST */}
-            </div>
+      // Render List of servcies
+      <div id="wrap">
+         <div id="columns" class="columns_4">
+            <figure>
+               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
+               <figcaption>
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+               </figcaption>
+               <span class="price">$2.99</span>
+               <a class="button" href="/product">
+                  Book Now
+               </a>
+            </figure>
+            <figure>
+               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
+               <figcaption>
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+               </figcaption>
+               <span class="price">$40.20</span>
+               <a class="button" href="#">
+                  Book Now
+               </a>
+            </figure>
+            <figure>
+               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
+               <figcaption>
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+               </figcaption>
+               <span class="price">$29.99</span>
+               <a class="button" href="#">
+                  Book Now
+               </a>
+            </figure>
+            <figure>
+               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
+               <figcaption>
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+               </figcaption>
+               <span class="price">$49.99</span>
+               <a class="button" href="#">
+                  Book Now
+               </a>
+            </figure>
+            <figure>
+               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
+               <figcaption>
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+               </figcaption>
+               <span class="price">$24.99</span>
+               <a class="button" href="#">
+                  Book Now
+               </a>
+            </figure>
+            <figure>
+               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
+               <figcaption>
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+               </figcaption>
+               <span class="price">$99.99</span>
+               <a class="button" href="#">
+                  Book Now
+               </a>
+            </figure>
+            <figure>
+               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
+               <figcaption>
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+               </figcaption>
+               <span class="price">$59.99</span>
+               <a class="button" href="#">
+                  Book Now
+               </a>
+            </figure>
+            <figure>
+               <img src="https://assets.codepen.io/7125791/testimonal-img-3.jpg" />
+               <figcaption>
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos.
+               </figcaption>
+               <span class="price">$24.99</span>
+               <a class="button" href="#">
+                  Book Now
+               </a>
+            </figure>
          </div>
       </div>
    );
-};
+}
 
 export default Services;
