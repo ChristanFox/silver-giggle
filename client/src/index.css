@@ -1427,7 +1427,7 @@ body {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   height: 55vh;
+   height: 42vh;
 }
 .jumbotron-profile {
    color: white;
@@ -1435,7 +1435,7 @@ body {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   height: 85vh;
+   height: 76vh;
 }
 .jumbotron-contact {
    color: white;
@@ -1443,7 +1443,7 @@ body {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   height: 80vh;
+   height: 76vh;
 }
 
 :root {
