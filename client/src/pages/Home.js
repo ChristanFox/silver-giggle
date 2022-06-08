@@ -13,7 +13,9 @@ const Home = () => {
                         <br></br>
                         <p>
                            Welcome to Oui'd where we provide you with all of
-                           your essential CBD needs.
+                           your massage care and essential CBD oil needs.
+                           <br></br> Let us help you destress with a little bit
+                           of our Oui'd Magic
                         </p>
                         <br></br>
                         <p>

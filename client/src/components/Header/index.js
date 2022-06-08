@@ -21,7 +21,7 @@ const Header = () => {
                   <>
                      <Link to="/services">Services</Link>
 
-                     <Link to="/profile">Account</Link>
+                     <Link to="/profile">My Oui'd</Link>
                      <a href="/" onClick={logout}>
                         Logout
                      </a>
