@@ -1,87 +1,87 @@
 import React from "react";
 
 const Home = () => {
-   return (
-      <main>
-         <div className="flex-row text-center">
-            <div className="col-12 mb-3">
-               <div className="justify-content-center">
-                  <div className="jumbotron">
-                     <div className="container">
-                        <h1>Oui'd Cavern</h1>
-                        <br></br>
-                        <br></br>
-                        <p>
-                           Welcome to Oui'd where we provide you with all of
-                           your massage care and essential CBD oil needs.
-                           <br></br> Let us help you destress with a little bit
-                           of our Oui'd Magic
-                        </p>
-                        <br></br>
-                        <p>
-                           Oui'd essential oil's have always been around you
-                           just didnt have us to get it to you!
-                        </p>
-                     </div>
-                  </div>
-               </div>
+  return (
+    <main>
+      <div className="flex-row text-center">
+        <div className="col-12 mb-3">
+          <div className="justify-content-center">
+            <div className="jumbotron">
+              <div className="container">
+                <h1>Oui'd Cavern</h1>
+                <br></br>
+                <br></br>
+                <p>
+                  Welcome to Oui'd where we provide you with all of your massage
+                  care and essential CBD oil needs.
+                  <br></br> Let us help you unwind with a little bit of our
+                  Oui'd Magic
+                </p>
+                <br></br>
+                <p>
+                  Oui'd essential oil's have always been around you just didnt
+                  have us to get it to you!
+                </p>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
+      </div>
 
-         <div class="hero-section">
-            <div class="card-home-grid">
-               <a class="card-home" href="/services">
-                  <div class="card-home__background">
-                     <img
-                        src="https://assets.codepen.io/7125791/testimonal-img-1_2.jpg"
-                        alt="img"
-                     />
-                  </div>
-                  <div class="card-home__content">
-                     <p class="card-home__category">Ooui'd</p>
-                     <h3 class="card-home__heading">Amazing Products! </h3>
-                  </div>
-               </a>
-               <a class="card-home" href="/services">
-                  <div class="card-home__background">
-                     <img
-                        src="https://assets.codepen.io/7125791/testimonal-img-4_1.jpg"
-                        alt="img"
-                     />
-                  </div>
-                  <div class="card-home__content">
-                     <p class="card-home__category">Ooui'd</p>
-                     <h3 class="card-home__heading">Best services 'Period'.</h3>
-                  </div>
-               </a>
-               <a class="card-home" href="/services">
-                  <div class="card-home__background">
-                     <img
-                        src="https://assets.codepen.io/7125791/testimonal-img-8_1.jpg"
-                        alt="img"
-                     />
-                  </div>
-                  <div class="card-home__content">
-                     <p class="card-home__category">Ooui'd</p>
-                     <h3 class="card-home__heading">Great Oui'd! </h3>
-                  </div>
-               </a>
-               <a class="card-home" href="/services">
-                  <div class="card-home__background">
-                     <img
-                        src="https://assets.codepen.io/7125791/testimonial-img-6_1.jpg"
-                        alt="img"
-                     />
-                  </div>
-                  <div class="card-home__content">
-                     <p class="card-home__category">Ooui'd</p>
-                     <h3 class="card-home__heading">Everyone's using it! </h3>
-                  </div>
-               </a>
+      <div class="hero-section">
+        <div class="card-home-grid">
+          <a class="card-home" href="/services">
+            <div class="card-home__background">
+              <img
+                src="https://assets.codepen.io/7125791/testimonal-img-1_2.jpg"
+                alt="img"
+              />
             </div>
-         </div>
-      </main>
-   );
+            <div class="card-home__content">
+              <p class="card-home__category">Ooui'd</p>
+              <h3 class="card-home__heading">Amazing Products! </h3>
+            </div>
+          </a>
+          <a class="card-home" href="/services">
+            <div class="card-home__background">
+              <img
+                src="https://assets.codepen.io/7125791/testimonal-img-4_1.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="card-home__content">
+              <p class="card-home__category">Ooui'd</p>
+              <h3 class="card-home__heading">Best services 'Period'.</h3>
+            </div>
+          </a>
+          <a class="card-home" href="/services">
+            <div class="card-home__background">
+              <img
+                src="https://assets.codepen.io/7125791/testimonal-img-8_1.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="card-home__content">
+              <p class="card-home__category">Ooui'd</p>
+              <h3 class="card-home__heading">Great Oui'd! </h3>
+            </div>
+          </a>
+          <a class="card-home" href="/services">
+            <div class="card-home__background">
+              <img
+                src="https://assets.codepen.io/7125791/testimonial-img-6_1.jpg"
+                alt="img"
+              />
+            </div>
+            <div class="card-home__content">
+              <p class="card-home__category">Ooui'd</p>
+              <h3 class="card-home__heading">Everyone's using it! </h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  );
 };
 
 export default Home;
