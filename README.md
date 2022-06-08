@@ -27,6 +27,8 @@ Once on the site, a user can click on a the nav bar header to be taken to a sect
 ## Additional Sources
 Resources from Codepen were used to help animate some of the sites buttons
 
+- [Login Form with floatin placeholder and light button](https://codepen.io/soufiane-khalfaoui-hassani/pen/LYpPWda)
+
 ## Links
 * Heroku - 
 
