@@ -73,21 +73,11 @@ const resolvers = {
 
       throw new AuthenticationError("Not logged in");
     },
-    updateOrder: async (parent, { service }, context) => {
+    deleteOrder: async (parent, { service }, context) => {
       //update order by finding ID and then returning new changes
-      console.log(context);
-      if (context.user) {
-        const order = new Order({ service });
-
-        await User.findByIdAndUpdate(context.user._id, {
-          $push: { orders: order },
-        });
-
-        return order;
-      }
-
-      throw new AuthenticationError("Not logged in");
-    }
+      // chanigng to delelting a service instead of updating due to open endedness of booking
+      // update using findAndRemove
+      // create a delete button for each service that will trigger the delete order mutation
   },
 };
 
