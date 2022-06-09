@@ -73,6 +73,21 @@ const resolvers = {
 
       throw new AuthenticationError("Not logged in");
     },
+    updateOrder: async (parent, { service }, context) => {
+      //update order by finding ID and then returning new changes
+      console.log(context);
+      if (context.user) {
+        const order = new Order({ service });
+
+        await User.findByIdAndUpdate(context.user._id, {
+          $push: { orders: order },
+        });
+
+        return order;
+      }
+
+      throw new AuthenticationError("Not logged in");
+    }
   },
 };
 
